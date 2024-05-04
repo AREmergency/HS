@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الطوارئ</title>
+    <link rel="icon" href="logo.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="./stylesheet.css">
+   
+<body>
+   <script src="./script.js" defer></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <header class="header" data-header>
+    <div class="container">
+        <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+          
+          <li>
+            <a href="cont.html" class="navbar-link" data-nav-link>تواصل معنا</a>
+        </li>
+ 
+            <li>
+              <a href="sug.html" class="navbar-link" data-nav-link>للاقتراحات</a>
+          </li>
+            <li>
+                <a href="about.html" class="navbar-link" data-nav-link>نبذة عنا</a>
+            </li>
+            <li>
+                <a href="tfadi.html" class="navbar-link" data-nav-link>التفادي</a>
+            </li>
+            <li>
+                <a href="engath.html" class="navbar-link" data-nav-link>الانقاذ</a>
+            </li>
+            <li>
+                <a href="html.html" class="navbar-link" data-nav-link>الرئيسية</a>
+            </li>
+            </ul>
+        </nav> 
+
+        <img href="html.html" src="./logo.jpg" class="image-position"  width="70" height="70">
+        <a href="html.html" class="logo">حالات الطوارئ</a>
+
+    <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+    </button>
+    </div> 
+   </header>
+<main>
+    <article>
+                <section class="section project" id="project" aria-label="project">
+                    <div class="container">
+                    <h2 class="h2 section-title">التفادي</h2>
+                    <p class="section-text">هنا توجد تعليمات لتفادي الحالات السابقة</p>
+
+                    <ul class="grid-list">
+                        <li>
+                        <div class="project-card">
+                            <figure class="card-banner img-holder" style="--width:310 ; --height: 400;">
+                            <img src="./car bg.jpg"  width="310" height="400" loading="lazy"
+                            alt="تدابير استباقية لتلافي وقوع حوادث السير" class="img-cover">
+                            
+                            </figure>
+                            <div class="card-content">
+                            <p class="card-subtitle">حوادث الطرق والاصابات</p>
+                            <h3 class="h3">
+                                <a class="card-title">تدابير استباقية لتلافي وقوع حوادث السير </a></h3>
+                                <a class="btn btn-three" onclick="toggleMessage(this)">الإجراءات</a>
+                                <div class="project-message">الحرص على ربط حزام-<br>
+                                راقب سرعتك-
+                                <br>
+                                عدم الانشغال بالهاتف اثناءالقيادة-
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="project-card">
+                            <figure class="card-banner img-holder" style="--width:310 ; --height: 400;">
+                            <img src="./v bg.jpg"  width="310" height="400" loading="lazy"
+                            alt="تدابير استباقية لتلافي الاصاية بمرض وبائي" class="img-cover">
+                            
+                            </figure>
+                            <div class="card-content">
+                            <p class="card-subtitle">الامراض الوبائية</p>
+                            <h3 class="h3">
+                                <a class="card-title">تدابير استباقية لتلافي الاصابة بمرض وبائي </a></h3>
+                                <a class="btn btn-three" onclick="toggleMessage(this)">الإجراءات</a>
+                                <div class="project-message">التجنب لمس العين مباشرة بعد لمس الاسطح-<br>
+                                    غسل اليديم جيدًا-
+                                    <br>
+                                    الحرص على تنظيف الاسطح بشكل دوري-
+                                    </div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="project-card">
+                            <figure class="card-banner img-holder" style="--width:310 ; --height: 400;">
+                            <img src="./fire bg.jpg"  width="310" height="400" loading="lazy"
+                            alt="تدابير استباقية لتلافي الاصابة الحرائق" class="img-cover">
+                            
+                            </figure>
+                            <div class="card-content">
+                            <p class="card-subtitle">الإصابات بالحروق</p>
+                            <h3 class="h3">
+                                <a  class="card-title">تدابير استباقية لتلافي الاصابة بالحرائق </a></h3>
+                                <a  class="btn btn-three" onclick="toggleMessage(this)">الإجراءات</a>
+                                <div class="project-message">الحرص على فحص وصيانة اجهزة الكهرباء-<br>
+                                    ابقاء المواد القابلة للاشتعال بعيدة-
+                                    <br>
+                                    استخدام المحولات والاسلاك بحذر-
+                                    </div>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="project-card">
+                            <figure class="card-banner img-holder" style="--width:310 ; --height: 400;">
+                            <img src="./dr bg.jpg"  width="310" height="400" loading="lazy"
+                            alt="تدابير استباقية لتلافي الغرق" class="img-cover">
+                            
+                            </figure>
+                            <div class="card-content">
+                            <p class="card-subtitle">حوادث الغرق</p>
+                            <h3 class="h3">
+                                <a class="card-title">تدابير استباقية لتلافي الغرق </a></h3>
+                                <a  class="btn btn-three" onclick="toggleMessage(this)">الإجراءات</a>
+                                <div class="project-message">مراقبة الاشخاص اثناء السباحة-<br>
+                                    اتباع اللوحات الارشادية-
+                                    <br>
+                                    عدم القفز أو النزول في االبحر من اماكن عالية الخطورة-
+                                    </div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="project-card">
+                            <figure class="card-banner img-holder" style="--width:310 ; --height: 400;">
+                            <img src="./FoodPoison bg.jpg"  width="310" height="400" loading="lazy"
+                            alt="تدابير استباقية لتلافي الاصابة بالتسمم" class="img-cover">
+                            
+                            </figure>
+                            <div class="card-content">
+                            <p class="card-subtitle">التسممات الغذائية</p>
+                            <h3 class="h3">
+                                <a class="card-title">تدابير استباقية لتلافي الاصابة بالتسمم </a></h3>
+                                <a  class="btn btn-three" onclick="toggleMessage(this)">الإجراءات</a>
+                                <div class="project-message">تجنب الاطعمة الغنية بالدهون-<br>
+                                    الاكثار من تناول الوجبات الصحية-
+                                    <br>
+                                    التأكد من حفظ وتخزين الطعام بشكل صحيح-
+                                    </div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="project-card">
+                            <figure class="card-banner img-holder" style="--width:310 ; --height: 400;">
+                            <img src="./fainta bg.jpg"  width="310" height="400" loading="lazy"
+                            alt="تدابير استباقية لتلافي التعرض للإغماء" class="img-cover">
+                            
+                            </figure>
+                            <div class="card-content">
+                            <p class="card-subtitle">الإغماء</p>
+                            <h3 class="h3">
+                                <a  class="card-title">تدابير استباقية لتلافي التعرض للإغماء </a></h3>
+                                <a class="btn btn-three" onclick="toggleMessage(this)">الإجراءات</a>
+                                <div class="project-message">عدم الوثوق لمدة طويلة-<br>
+                                    الحد من التوتر والضغط النفسي-
+                                    <br>
+                                    الحرص على الكشف الدوري-
+                                    </div>
+                            </div>
+                        </div>
+                        </li>
+
+                    </ul>
+                    </div>
+                </section>
+</article>
+</main>
+
+
+</body>
+</html>
